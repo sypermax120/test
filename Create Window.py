@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import QMainWindow, QLabel, QPushButton, QCheckBox, QRadioB
 class Window(QMainWindow):
     def __init__(self):
         super(Window, self).__init__()
-        a = 10
+        a = 100
         self.setGeometry(400, 400, 300, 180)
         self.setWindowTitle('Window')
         btn = QPushButton("Button", self)
