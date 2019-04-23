@@ -7,7 +7,6 @@ class Window(QMainWindow):
         super(Window, self).__init__()
         self.setGeometry(400, 400, 300, 180)
         self.setWindowTitle('Window')
-        aaa = 0
         btn = QPushButton("Button", self)
         btn.move(100,130)
         btn.clicked.connect(self.test)
